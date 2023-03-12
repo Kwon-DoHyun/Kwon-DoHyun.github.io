@@ -203,3 +203,81 @@ function findHorizon() {
   }
 
   
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>omok</title>
+  
+      <link rel="stylesheet" href="omok.css">
+  
+  
+  
+  
+  </head>
+  <body>
+      
+  
+  
+  
+  
+  
+      omok
+  
+      <div class="root"></div>
+  
+  
+  
+      omok
+      <!-- css 속성
+      possition:absolute ghkfyf
+      두개의 맵을 겹쳐서 표현 가능 -->
+  
+      <script src="omok.js"></script>
+  </body>
+  </html>
+
+  *{
+
+margin: 0;
+padding: 0;
+text-align: center;
+line-height: 100px;
+}
+
+
+.map{
+display: flex;
+
+flex-wrap: wrap;
+width: 1000px;
+height: 1000px;
+
+}
+
+.root{
+display: flex;
+justify-content: center;
+align-content: center;
+}
+.box{
+
+width: 100px;
+height: 100px;
+background-color: coral;
+
+}
+
+.box:hover:not(.index)  {
+
+background-color: gold;
+}
+.button{
+
+width: 200px;
+height: 100px;
+background-color: brown;
+
+}

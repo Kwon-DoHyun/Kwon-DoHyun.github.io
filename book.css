@@ -1,0 +1,40 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1 {
+
+    text-align: center;
+
+
+}
+
+
+
+.container {
+
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+
+.searchbox {
+    width: fit-content;
+    background-color: brown;
+
+    margin: auto;
+}
+
+.result-card {
+
+    width: 200px;
+    height: 400px;
+    background-color: yellowgreen;
+}

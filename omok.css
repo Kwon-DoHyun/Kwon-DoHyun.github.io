@@ -1,0 +1,42 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+.map{
+    display: flex;
+
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+
+}
+
+.box:hover:not(.index)  {
+
+    background-color: gold;
+}
+.button{
+   
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+
+}
