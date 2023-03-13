@@ -203,3 +203,17 @@ function findHorizon() {
   }
 
   
+  const button = document.querySelector(".button");
+  button.addEventListener("click", () => {
+  
+      reset();
+  
+  
+  });
+  
+  function reset(){
+  
+      turn=1;
+      win=0;
+      location.reload();
+  }
